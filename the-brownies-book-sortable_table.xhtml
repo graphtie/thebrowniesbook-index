@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Summary Information</title>
+      
+      <!-- This <script> element references the javascript that does the actual sorting -->
+      <script type="application/javascript" src="http://www.wwp.neu.edu/utils/bin/javascript/sorttable.js"></script>
+      
+      <!-- The <style> element contains the ugly styling (colors, cell borders, etc.) -->
+      <style type="text/css">
+        body { margin: 1em; }
+        thead &gt; tr &gt; td {
+          background-color: #DEC;
+          font-weight: bold;
+          padding: 0.5ex;
+        }	
+        td.num {
+          text-align: center;
+          padding: 1ex 1ex 1ex 1ex;
+        }
+        td.nmb {
+          text-align: center;
+          padding: 1ex 1ex 1ex 1ex;
+          font-weight: bold;
+        }
+        td.txt {
+          text-align: left;
+          padding: 1ex 1ex 1ex 1ex; 
+        }
+      </style></head>
+
+   <body>
+      <h1><em>The Brownies' Book</em></h1>
+
+      <div>
+         <h2><em>The Brownies' Book: Annotated Index</em></h2>
+         <p>
+         <!-- Here beginneth the table. The class="sortable" is how the Javascript identifies which tables to sort, so that part is essential. -->
+         <table border="1" class="sortable">
+            
+            <!-- the <thead> element contains the header row for the table -->
+            <thead>
+               <tr>
+                  <td>filename</td>
+                  <td>Title article</td>
+                  <td>Title</td>
+                  <td>Issue</td>
+                  <td>Year</td>
+                  <td>Month</td>
+                  <td>Creator One</td>
+                  <td>Creator One role</td>
+                  <td>Main Genre</td>              
+                  <td>Creator Two</td>
+                  <td>Creator Two role</td>
+                  <td>Additional Genre</td>
+                  <td>Section</td>
+                  <td>Citation</td>    
+               </tr>
+            </thead>
+            
+            <!-- the <tbody> element contains the body of the table (i.e. the actual data). Each <tr> 
+                 element represents an individual row. Within the <tr> element, each <td> element
+                 represents an individual cell, going from left to right. The class="txt", 
+                 class="num", and class="nmb" all designate different kinds of cells that are formatted
+                 differently by the CSS styling in the <style> element above. -->
+            <tbody>
+               <tr>
+                  <td class="txt">smithalberta-fromgenerationtogeneration-july1920</td>
+                  <td class="txt" style="font-size: small;"></td>
+                  <td class="txt" style="font-weight: bold; background-color: #FFF;">From Generation to Generation</td>
+                  <td class="num" style="font-weight: bold; background-color: #FFF;">7</td>
+                  <td class="txt">1920</td>
+                  <td class="txt">July</td>
+                  <td class="txt">Smith, Albert A.</td>
+                  <td class="txt">Illustrator</td>
+                  <td class="txt" style="background-color: #DEF;">Illustration</td>
+                  <td class="txt" style="background-color: #DEF;"></td>
+                  <td class="txt" style="background-color: #DEF;"></td>
+                  <td class="txt" style="background-color: #DEF;"></td>
+                  <td class="txt" style="background-color: #DEF;"></td>
+                  <td class="txt" style="background-color: #DEF;">Smith, Albert A. From Generation to Generation. Cover Drawing. New York: Du Bois and Dill, Publishers, 1920. </td>
+               </tr>
+               <tr>
+                  <td class="txt">barfieldmildredadele-americaforall-july1920</td>
+                  <td class="txt" style="font-size: small;"></td>
+                  <td class="txt" style="font-weight: bold; background-color: #FFF;">America For All Benefits for Enlistment in the United States Army. Prize Essay.</td>
+                  <td class="num" style="font-weight: bold; background-color: #FFF;">7</td>
+                  <td class="txt">1920</td>
+                  <td class="txt">July</td>
+                  <td class="txt">Barfield, Mildred Adele</td>
+                  <td class="txt">Author</td>
+                  <td class="txt" style="background-color: #DEF;">Essay</td>
+                  <td class="txt" style="background-color: #DEF;">Wheeler, Laura</td>
+                  <td class="txt" style="background-color: #DEF;">Illustrator</td>
+                  <td class="txt" style="background-color: #DEF;">Photography</td>
+                  <td class="txt" style="background-color: #DEF;"></td>
+                  <td class="txt" style="background-color: #DEF;">Barfield, Mildred Adele and Laura Wheeler. America For All Benefits for Enlistment in the United States Army. Prize Essay and Illustration. New York: Du Bois and Dill, Publishers, 1920. </td>
+               </tr>
+               <tr>
+                  <td class="txt">wattsrobertp-thesandmansongapoem-july1920</td>
+                  <td class="txt" style="font-size: small;">The</td>
+                  <td class="txt" style="font-weight: bold; background-color: #FFF;">Sandman's Song. A Poem.</td>
+                  <td class="num" style="font-weight: bold; background-color: #FFF;">7</td>
+                  <td class="txt">1920</td>
+                  <td class="txt">July</td>
+                  <td class="txt">Watts, Robert P.</td>
+                  <td class="txt">Author</td>
+                  <td class="txt" style="background-color: #DEF;">Poetry</td>
+                  <td class="txt" style="background-color: #DEF;"></td>
+                  <td class="txt" style="background-color: #DEF;"></td>
+                  <td class="txt" style="background-color: #DEF;"></td>
+                  <td class="txt" style="background-color: #DEF;"></td>
+                  <td class="txt" style="background-color: #DEF;">Watts, Robert P. The Sandman's Song. A Poem. New York: Du Bois and Dill, Publishers, 1920. </td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </body>
+</html>
